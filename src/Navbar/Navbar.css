@@ -1,0 +1,23 @@
+.navBarActions {
+  display: flex;
+  width: 30%;
+  justify-content: space-between;
+  padding: 0 20px;
+  align-items: center;
+  color: black;
+}
+
+.routeAction {
+  color: black;
+  cursor: pointer;
+  font-family: Roboto Condensed;
+  font-weight: 600;
+  font-size: 17px;
+  transition: all 0.3s ease-in-out;
+  padding: 10px;
+}
+
+.routeAction:hover {
+  background-color: #fef7d2;
+  border-radius: 10px;
+}
