@@ -182,7 +182,7 @@ const ConfigExpanses = (props) => {
   return (
     <>
       <div className="masterEpansesContainer">
-        <Navbar title={"Config Expanses"} />
+        <Navbar title={"Configure Expenses"} />
         <Paper
           className="expansesFormContainer"
           sx={{
@@ -299,7 +299,7 @@ const ConfigExpanses = (props) => {
                 : `Please Enter Some Data!!`}
             </Paper>
           ) : (
-            <div className="expanseTable">
+            <div className="expenseTable">
               <TableContainer
                 sx={{ width: "100%", fontFamily: "Roboto Condensed" }}
                 className="pieChartExpConfigCont"
