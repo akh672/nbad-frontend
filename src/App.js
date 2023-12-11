@@ -23,7 +23,7 @@ function App(props) {
   useEffect(() => {
     const intervalId = setInterval(() => {
       if (isUserLoggedIn) setOpenDialog(true);
-    }, 10000);
+    }, 120000);
 
     return () => clearInterval(intervalId);
   }, [isUserLoggedIn]);
